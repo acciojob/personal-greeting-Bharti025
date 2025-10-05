@@ -13,7 +13,7 @@ const App = () => {
       <br></br>
        <input type="text" id="name" onChange={handleChange} />
        {name &&
-       <p>Hello {name}</p>}
+       <p>Hello {name}!</p>}
     </div>
   )
 }
